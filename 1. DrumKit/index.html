@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+</head>
+<body>
+  <header><span>DRUM KIT</span><span>#javascript30</span></header>
+  <div class="drumkit">
+    <div class="hihat key" data-key="70"><kbd>F</kbd><small>hihat</small></div>
+    <div class="openhihat key" data-key="67"><kbd>C</kbd><small>open hihat</small></div>
+    <div class="snare key" data-key="71"><kbd>G</kbd><small>snare</small></div>
+    <div class="bass key" data-key="72">
+      <small>bass</small>
+      <div class="bassfoot"> <kbd>H</kbd> <small>bass foot</small></div>
+    </div>
+    <div class="tom key" data-key="78"><kbd>N</kbd><small>tom</small></div>
+    <div class="ride key" data-key="89"><kbd>Y</kbd><small>ride</small></div>
+  </div>
+
+  <audio data-key="70" src="sounds/hihat.wav"></audio>
+  <audio data-key="67" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/snare.wav"></audio>
+  <audio data-key="72" src="sounds/boom.wav"></audio>
+  <audio data-key="78" src="sounds/tom.wav"></audio>
+  <audio data-key="89" src="sounds/ride.wav"></audio>
+  
+  <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
